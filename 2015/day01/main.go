@@ -8,15 +8,39 @@ import (
 
 func main() {
 	input := util.ReadInput("input.txt")
-	fmt.Println("Part 1: ", part1(input))
-	fmt.Println("Part 2: ", part2(input))
 
+	fmt.Println("Part One:", partOne(input))
+	fmt.Println("Part Two:", partTwo(input))
 }
 
-func part1(input string) int {
-	return 0
+func partOne(input string) int {
+	ans := 0
+
+	for _, value := range input {
+		if value == '(' {
+			ans++
+		} else {
+			ans--
+		}
+	}
+
+	return ans
 }
 
-func part2(input string) int {
+func partTwo(input string) int {
+	ans := 0
+
+	for index, value := range input {
+		if value == '(' {
+			ans++
+		} else {
+			ans--
+		}
+
+		if ans == -1 {
+			return index + 1
+		}
+	}
+
 	return 0
 }

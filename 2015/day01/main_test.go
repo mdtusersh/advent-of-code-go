@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestPart1(t *testing.T) {
+func TestPartOne(t *testing.T) {
 	tests := []struct {
 		input string
 		want  int
@@ -20,7 +20,7 @@ func TestPart1(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.input, func(t *testing.T) {
-			got := part1(tt.input)
+			got := partOne(tt.input)
 			if got != tt.want {
 				t.Errorf("Part1(%q) = %d, want %d", tt.input, got, tt.want)
 			}
@@ -29,7 +29,7 @@ func TestPart1(t *testing.T) {
 
 }
 
-func TestPart2(t *testing.T) {
+func TestPartTwo(t *testing.T) {
 	tests := []struct {
 		input string
 		want  int
@@ -40,7 +40,7 @@ func TestPart2(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.input, func(t *testing.T) {
-			got := part2(tt.input)
+			got := partTwo(tt.input)
 			if got != tt.want {
 				t.Errorf("solve2(%q) = %d, want %d", tt.input, got, tt.want)
 			}
