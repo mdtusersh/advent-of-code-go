@@ -29,8 +29,6 @@ go test .
 
 ## Progress
 
-### 2015
-
-| Day | Part 1 | Part 2 | Problem |
-|-----|--------|--------|---------|
-| 01  | | | [Not Quite Lisp](https://adventofcode.com/2015/day/1) |
+| Year | Stars |
+|------|-------|
+| [2015](2015/README.md) | 2/50 |
