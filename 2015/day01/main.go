@@ -1,0 +1,22 @@
+package main
+
+import (
+	"fmt"
+
+	"github.com/mdtusersh/advent-of-code-go/util"
+)
+
+func main() {
+	input := util.ReadInput("input.txt")
+	fmt.Println("Part 1: ", part1(input))
+	fmt.Println("Part 2: ", part2(input))
+
+}
+
+func part1(input string) int {
+	return 0
+}
+
+func part2(input string) int {
+	return 0
+}
