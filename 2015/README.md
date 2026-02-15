@@ -5,7 +5,7 @@
 | 01  | ⭐ | ⭐ | [Not Quite Lisp](https://adventofcode.com/2015/day/1) |
 | 02  | ⭐ | ⭐ | [I Was Told There Would Be No Math](https://adventofcode.com/2015/day/2) |
 | 03  | ⭐ | ⭐ | [Perfectly Spherical Houses in a Vacuum](https://adventofcode.com/2015/day/3) |
-| 04  | | | [The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4) |
+| 04  | ⭐ | ⭐ | [The Ideal Stocking Stuffer](https://adventofcode.com/2015/day/4) |
 | 05  | | | [Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) |
 | 06  | | | [Probably a Fire Hazard](https://adventofcode.com/2015/day/6) |
 | 07  | | | [Some Assembly Required](https://adventofcode.com/2015/day/7) |
